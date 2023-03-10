@@ -14,7 +14,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate ()
     {
-        rb.AddForce(0, 0, forwardforce* Time.deltaTime);
+        Vector3 forwardStep = new Vector3(0, 0, 1);
+        rb.MovePosition(transform.position + forwardStep * Time.deltaTime * forwardforce);
+        //rb.AddForce(0, 0, forwardforce* Time.deltaTime);
         int sideforce = Random.Range(a, b);
         if (Input.GetKey("d"))
         {

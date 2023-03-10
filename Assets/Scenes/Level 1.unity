@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 170783383}
-  forwardforce: 10
+  forwardforce: 20
   a: 100
   b: 200
 --- !u!54 &170783383
@@ -7390,7 +7390,7 @@ PrefabInstance:
     - target: {fileID: 918659359660659369, guid: d69b732a6b800b5408a1717c6b15d4db,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1725
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 918659359660659369, guid: d69b732a6b800b5408a1717c6b15d4db,
         type: 3}
