@@ -21,6 +21,7 @@ public class _keyEventOnDown : MonoBehaviour
         if (Input.GetKeyDown(thisKey))
         {
             onPressEvent?.Invoke();
+            
         }
     }
 }

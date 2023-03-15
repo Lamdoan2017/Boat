@@ -65,7 +65,7 @@ Material:
     - _DrawOrder: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _opacity: 1.83
+    - _opacity: 2
     - _smoothness: 2
     - _waveHeight: 0.01
     - _waveScale: 0.01
