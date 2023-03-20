@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6814836290383701534}
   - component: {fileID: 4161066995034474218}
   - component: {fileID: 5587400132451572988}
+  - component: {fileID: 5994723574596877053}
   m_Layer: 0
   m_Name: Normal
   m_TagString: Untagged
@@ -83,6 +84,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &5994723574596877053
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843791995977335513}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &4705838723397256594
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,7 +212,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1 &6241561592433020124
 GameObject:
@@ -242,6 +259,7 @@ GameObject:
   - component: {fileID: 2530506910828135552}
   - component: {fileID: 5868184229770040244}
   - component: {fileID: 4958632390022234048}
+  - component: {fileID: 2774493334567068187}
   m_Layer: 0
   m_Name: Broke
   m_TagString: Untagged
@@ -314,3 +332,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &2774493334567068187
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8005549858088612957}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0

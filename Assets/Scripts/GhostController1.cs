@@ -7,6 +7,7 @@ public class GhostController1 : MonoBehaviour
     public Animator anim;
 
     public GameObject sound;
+    public GameObject start;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +36,10 @@ public class GhostController1 : MonoBehaviour
         if (sound.activeSelf == true)
         {
             anim.SetBool("Die", true);
+        }
+        if (start.activeSelf== true)
+        {
+            anim.SetBool("Start", true);
         }
     }
     
